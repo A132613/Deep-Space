@@ -1,0 +1,35 @@
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: "Kalnia Glaze", serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: #1c1c4b;
+    font-family: "Sankofa Display", sans-serif;
+    color: #ffffff;
+    border: 70;;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    max-width: 70%;
+}
